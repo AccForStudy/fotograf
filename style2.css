@@ -1,0 +1,837 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1355px;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner1 {
+    background-repeat: no-repeat;
+    background: linear-gradient(268deg, #fff 0%, rgba(255, 255, 255, 0) 100%), url(./img/banner/background.jpg);
+    width: 1320px;
+    height: 880px;
+}
+
+.banner-title {
+    position: absolute;
+    width: 542px;
+    height: 114px;
+    left: 375px;
+    top: 297px;
+
+    font-family: 'Alice';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 57px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.btn {
+    padding: 13px 21px;
+    width: 151px;
+    height: 50px;
+    background: #e28378;
+    border: none;
+    color: #fff;
+    padding: 13px 21px;
+}
+
+.banner-button {
+    position: absolute;
+    left: 375px;
+    top: 534px;
+}
+
+.banner-subtitle {
+    position: absolute;
+    width: 591px;
+    height: 78px;
+    left: 375px;
+    top: 426px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #666666;
+}
+
+.banner2 {
+    position: absolute;
+    width: 1330px;
+    height: 918px;
+    left: 836px;
+    top: 0px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.banner3 {
+    position: absolute;
+    width: 764px;
+    height: 694px;
+    left: 1186px;
+    top: 188px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/****************************about us*****************************/
+.about-us {
+    position: absolute;
+    width: 1922px;
+    height: 878px;
+    left: -2px;
+    top: 794px;
+}
+
+.about-us-bg {
+    background: linear-gradient(90deg, #fff 20.3%, rgba(255, 255, 255, 0) 100%), url(/img/aboutUs/12.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    position: absolute;
+    width: 1190px;
+    height: 793px;
+    left: 744px;
+    top: 90px;
+}
+
+.about-us-title {
+    position: absolute;
+    width: 542px;
+    height: 96px;
+    left: 98px;
+    top: 203px;
+    font-family: 'Alice';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 48px;
+    color: #000000;
+}
+
+.about-us-subtitle {
+    position: absolute;
+    width: 700px;
+    height: 103px;
+    left: 98px;
+    top: 315px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #666666;
+}
+
+.about-us-button {
+    position: absolute;
+    left: 98px;
+    top: 448px;
+}
+
+.about-us-f1 {
+    position: absolute;
+    width: 775px;
+    height: 878px;
+    left: -2px;
+    top: 30px;
+    filter: drop-shadow(10px 10px 30px rgba(227, 184, 179, 0.1));
+}
+
+/*********************************************what we do********************************************/
+.what-we-do {
+    position: absolute;
+    width: 1170px;
+    height: 719px;
+    left: 369px;
+    top: 1790px;
+}
+
+
+.what-we-do-name {
+    text-align: center;
+    font-family: 'Alice';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 48px;
+    color: #000000;
+    margin-bottom: 41px;
+}
+
+.what-we-do-wrapper {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+}
+
+.what-we-do-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.what-we-do-title {
+
+    font-family: 'Alice';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27px;
+    color: #000000;
+    width: 227px;
+    height: 27px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.what-we-do-subtitle {
+
+    position: absolute;
+    width: 366px;
+    height: 52px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #666666;
+    margin-top: 390px;
+    padding-right: 35px;
+    padding-left: 35px;
+}
+
+.what-we-do-button {
+    margin-top: 74px;
+}
+
+/*********************************************CTA********************************************/
+.CTA {
+    background: url(/img/CTA/CTA-bg.jpg);
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 1920px;
+    height: 866px;
+    left: 0px;
+    top: 2600px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+.CTA-title {
+
+    position: absolute;
+    width: 513px;
+    height: 96px;
+    left: 375px;
+    margin-top: 312px;
+    font-family: 'Alice';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 48px;
+    color: #000000;
+}
+
+.CTA-subtitle {
+    position: absolute;
+    width: 523px;
+    height: 52px;
+    left: 375px;
+    margin-top: 423px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #666666;
+}
+
+.CTA-button {
+    margin-top: 505px;
+    margin-left: 375px;
+    margin-bottom: 311px;
+}
+
+.CTA2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 72px;
+}
+
+.CTA-img1 {
+    position: absolute;
+    width: 300px;
+    height: 412px;
+    left: 1037px;
+    top: 111px;
+}
+
+.CTA-img2 {
+    position: absolute;
+    width: 300px;
+    height: 326px;
+    left: 1347px;
+    top: 82px;
+}
+
+.CTA-img3 {
+    position: absolute;
+    width: 231px;
+    height: 331px;
+    left: 1657px;
+    top: 162px;
+}
+
+.CTA-img4 {
+    position: absolute;
+    width: 260px;
+    height: 211px;
+    left: 1077px;
+    top: 533px;
+}
+
+.CTA-img5 {
+    position: absolute;
+    width: 300px;
+    height: 366px;
+    left: 1347px;
+    top: 418px;
+}
+
+.CTA-img6 {
+    position: absolute;
+    width: 263px;
+    height: 241px;
+    left: 1657px;
+    top: 503px;
+}
+
+/*********************************************REVIEW********************************************/
+.review {
+    width: 1920px;
+    background: #FFFFFF;
+    margin-top: 2580px;
+
+}
+
+.review-name {
+    text-align: center;
+    font-family: 'Alice';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 48px;
+    color: #000000;
+    margin-top: 120px;
+    color: #000000;
+}
+
+.review-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+
+}
+
+.review-card {
+    background-color: #FDF8F7;
+    /* Цвет фона */
+    background: url(/img/review/Rectangle36.jpg);
+    background-size: 370px 274px;
+    /* Размер фонового изображения */
+    background-repeat: no-repeat;
+    /* Предотвращает повторение фона */
+    background-position: bottom center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 370px;
+    height: 329px;
+    margin-top: 40px;
+
+}
+
+.review__img1 {}
+
+.review-title {
+    font-family: 'Alice';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    margin-top: 20px;
+}
+
+.review-subtitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 10px;
+    color: #666666;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*********************************************projects********************************************/
+.projects {
+    width: 1920px;
+    height: 1036px;
+}
+
+.projects-name {
+    margin-top: 120px;
+    font-family: 'Alice';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 48px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 54px;
+}
+
+.projects-wrapper {
+    grid-gap: 10px;
+}
+
+.projects-img1 {
+    position: absolute;
+    width: 375px;
+    height: 480px;
+    left: 0px;
+    top: 4237px;
+}
+
+.projects-img2 {
+    position: absolute;
+    width: 560px;
+    height: 792px;
+    left: 385px;
+    top: 4237px;
+}
+
+.projects-img3 {
+    position: absolute;
+    width: 440px;
+    height: 428px;
+    left: 955px;
+    top: 4237px;
+}
+
+.projects-img4 {
+
+    position: absolute;
+    width: 515px;
+    height: 792px;
+    left: 1405px;
+    top: 4237px;
+}
+
+.projects-img5 {
+    position: absolute;
+    width: 375px;
+    height: 610px;
+    left: 0px;
+    top: 4727px;
+}
+
+.projects-img6 {
+    position: absolute;
+    width: 375px;
+    height: 298px;
+    left: 385px;
+    top: 5039px;
+}
+
+.projects-img7 {
+    position: absolute;
+    width: 440px;
+    height: 354px;
+    left: 955px;
+    top: 4675px;
+}
+
+.projects-img8 {
+    position: absolute;
+    width: 705px;
+    height: 298px;
+    left: 770px;
+    top: 5039px;
+}
+
+.projects-img9 {
+    position: absolute;
+    width: 435px;
+    height: 298px;
+    left: 1485px;
+    top: 5039px;
+}
+
+/*********************************************team********************************************/
+.team {
+    position: absolute;
+    width: 1170px;
+    height: 613px;
+    left: 375px;
+    top: 5337px;
+}
+
+.team-cont {}
+
+.team-name {
+    text-align: center;
+    font-family: 'Alice';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 48px;
+    color: #000000;
+    margin-top: 120px;
+    margin-bottom: 43px;
+}
+
+.team-wrapper {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    width: 1170px;
+    height: 613px;
+    left: 375px;
+}
+
+.team-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+}
+
+.team__img1 {}
+
+.team-title {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'Alice';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.team-subtitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+}
+
+/*********************************************blog********************************************/
+.blog {
+    position: absolute;
+    width: 1170px;
+    height: 550px;
+    left: 375px;
+    top: 6000px;
+}
+
+.blog-name {
+    text-align: center;
+    font-family: 'Alice';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 48px;
+    color: #000000;
+    margin-top: 154px;
+    margin-bottom: 43px;
+}
+
+.blog-wrapper {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    width: 1170px;
+    left: 375px;
+    justify-content: center;
+}
+
+.blog1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-description {
+    display: flex;
+    flex-direction: column;
+    margin-top: 500px;
+    position: absolute;
+    width: 546px;
+    height: 259px;
+    background: #FFFBFB;
+}
+
+.blog-date {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-left: 30px;
+    align-items: center;
+}
+
+.blog-kalendar {
+    margin-right: 10px;
+}
+
+.blog-date-desc {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+}
+
+.blog-title {
+    position: absolute;
+    width: 330px;
+    height: 46px;
+    margin-left: 30px;
+    margin-right: 136px;
+    margin-top: 69px;
+    font-family: 'Alice';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.blog-subtitle {
+    position: absolute;
+    width: 486px;
+    height: 104px;
+    margin-left: 30px;
+    margin-top: 125px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #666666;
+}
+
+/*********************************************Get In Touch********************************************/
+.get-in-touch {
+    position: absolute;
+    width: 1082px;
+    height: 696px;
+    left: 375px;
+    top: 6780px;
+}
+
+.blog-get-in-touch {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 120px;
+}
+
+.get-in-touch-name {
+    font-family: 'Alice';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 48px;
+    color: #000000;
+    margin-top: 120px;
+    margin-bottom: 41px;
+    text-align: center;
+}
+
+.get-in-touch-help-form {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    position: absolute;
+    top: 250px;
+    width: 612px;
+    height: 485px;
+    left: 451px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px 4px rgba(0, 0, 0, 0.05);
+}
+
+.help-form {
+    font-family: 'Alice';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.help-form__name {
+    margin-top: 20px;
+    background-color: FFF6F6;
+}
+
+.help-form__Email {
+    margin-top: 15px;
+}
+
+.help-form__Phone {
+    margin-top: 15px;
+}
+
+.help-form__Message {
+    margin-top: 15px;
+    width: 532px;
+    height: 87px;
+    background-color: #FFF6F6;
+    border: none;
+    padding-top: 15px;
+}
+
+.help-form__name,
+.help-form__Email,
+.help-form__Phone {
+    width: 532px;
+    height: 50px;
+    background-color: #FFF6F6;
+    border: none;
+}
+
+::placeholder {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(102, 102, 102, 0.75);
+    padding-left: 21px;
+
+}
+
+
+.help-form-button {
+    margin-top: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    width: 100px;
+    height: 50px;
+}
+
+/********************************************newsletter***************************/
+.newsletter {
+    background-color: #FFF6F6;
+    position: absolute;
+    width: 1920px;
+    height: 418px;
+    left: 0px;
+    top: 7650px;
+    background: #FFF6F6;
+}
+
+.newsletter-blog {
+
+
+    width: 1920px;
+    height: 418px;
+    background: #FFF6F6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter-title {
+    text-align: center;
+
+    font-family: 'Alice';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 48px;
+    /* identical to box height */
+
+    color: #000000;
+}
+
+.newsletter-subtitle {
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 3px;
+    color: #666666;
+}
+
+.newsletter__Email {
+
+width: 600px;
+height: 50px;
+background: #FFFFFF;
+border: none;
+}
+
+.btn {}
+
+
+.input-container button {
+    position: absolute;
+    right: 0;
+
+}
+    .input-container {
+        position: relative;
+        width: 600px;
+        margin-top: 40px;
+      
+      
+    }
+    
+     .input-container input {       
+        padding: 10px 60px 10px 10px; /* Добавляем отступ для кнопки */
+        font-size: 16px;
+        box-sizing: border-box; /* Учитываем padding в общей ширине */
+   
+    }
+    
+  
